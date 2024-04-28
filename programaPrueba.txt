@@ -1,0 +1,8 @@
+start;
+int a=factorial(2);
+int b=a*3;
+int c=mayor(4,8);
+print(c);
+int d=factorial(8);
+print(d);
+finish;

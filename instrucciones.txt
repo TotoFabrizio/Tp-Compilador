@@ -1,0 +1,24 @@
+para probar el programa, simplemente ejecutan el .exe
+
+
+
+
+Si queres realizar modificaciones en el archivo, primero tenes que hacer:
+
+1- Descargar Flex y Bison
+2- Agregarlos a la variable de entorno de tu pc
+3- Abrir gitbash
+4- Posicionarse en la carpeta del tp
+5- Seguir los comandos de abajo en orden
+
+flex flexer.l
+bison -d parser.y
+gcc -o miprograma lex.yy.c parser.tab.c tabla.c
+
+6-Luego abrir el cmd y ejecutar
+
+miprograma.exe programaPrueba.txt
+
+Si esta todo OK, no te tiene que tirar ningun error.
+
+Version 1.4
